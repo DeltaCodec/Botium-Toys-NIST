@@ -2,7 +2,7 @@
 ## Introduction
 
 This repository is a security audit exercise for [Google's Cybersecurity Course](https://www.coursera.org/google-certificates/cybersecurity-certificate) on a dummy company called "Botium Toys"
-> I will be trying to develop this repository not only on the NIST-CSF perspective as it's asked on the course but also on Brazilian's laws and regulations perspective using the course as an extension to FIB Youth Program that I am participating this year.
+> I will try to develop this repository not only on the NIST-CSF perspective as it's asked on the course but also on Brazilian's laws and regulations perspective using the course as an extension to FIB Youth Program that I am participating this year.
 ## Scenario
 Botium Toys is a small U.S. business that develops and sells toys. The business has a single physical location, which serves as their main office, a storefront, and warehouse for their products. However, Botium Toy’s online presence has grown, attracting customers in the U.S. and abroad. As a result, their information technology (IT) department is under increasing pressure to support their online market worldwide. 
 
