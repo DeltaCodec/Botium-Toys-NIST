@@ -17,7 +17,7 @@ The IT manager starts by implementing the National Institute of Standards and Te
 
 * **Goals:** Assess existing assets and complete the controls and compliance checklist to determine which controls and compliance best practices need to be implemented to  improve Botium Toys’ security posture.
 
-### Optimization for Small Businesses
+### Optimization for Small Businesses (Small Business Guide)
 As the company is a small business (SMB), this audit can be optimized using the [NIST Cybersecurity Framework 2.0: Small Business Quick-Start Guide](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1300.pdf), a resource provided on NIST's website.
 
 >"This guide provides small-to-medium sized businesses (SMB), specifically those who have modest or no cybersecurity plans
