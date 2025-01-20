@@ -17,6 +17,8 @@ The IT manager starts by implementing the National Institute of Standards and Te
 
 * **Goals:** Assess existing assets and complete the controls and compliance checklist to determine which controls and compliance best practices need to be implemented to  improve Botium Toys’ security posture.
 
+![f_nist-logo-brand-black](https://github.com/user-attachments/assets/2595068a-65a8-4015-b334-355240a4dc17)
+
 ### Optimization for Small Businesses (Small Business Guide)
 As the company is a small business (SMB), this audit can be optimized using the [NIST Cybersecurity Framework 2.0: Small Business Quick-Start Guide](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1300.pdf), a resource provided on NIST's website.
 
@@ -28,4 +30,6 @@ agencies, and schools. It is a supplement to the NIST CSF and is not intended to
 
 
 The company scored an 8 on the **Risk Score** due the lack of controls and adherence to compliance and best practices, this also qualifies this resource as a useful tool for this audit.
+
+
 
