@@ -5,4 +5,4 @@
 
 ### Introduction
 
-This repository is a security audit exercise for Google's Cybersecurity course on a dummmy company called "Botium Toys"
+This repository is a security audit exercise for [Google's Cybersecurity course](https://www.coursera.org/google-certificates/cybersecurity-certificate) on a dummy company called "Botium Toys"
