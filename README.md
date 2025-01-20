@@ -25,6 +25,7 @@ As the company is a small business (SMB), this audit can be optimized using the 
 in place, with considerations to kick-start their cybersecurity risk management strategy by using the NIST Cybersecurity
 Framework (CSF) 2.0. The guide also can assist other relatively small organizations, such as non-profits, government
 agencies, and schools. It is a supplement to the NIST CSF and is not intended to replace it."
+
 <sub>- Purpose, Slide 2, "NIST Cybersecurity Framework 2.0: Small Business Quick-Start Guide"<sub>
 
 The company scored an 8 on the **Risk Score** due the lack of controls and adherence to compliance and best practices, this also qualifies this resource as a useful tool for this audit.
