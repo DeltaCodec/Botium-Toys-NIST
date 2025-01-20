@@ -36,6 +36,7 @@ The company scored an 8 on the **Risk Score** due the lack of controls and adher
 appropriate level of protection for each asset based upon its sensitivity and criticality to your
 business mission.
 
-| Asset |
+| Asset | Asset's official use: |
+
 
 
