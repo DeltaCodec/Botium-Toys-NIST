@@ -1,4 +1,3 @@
-
 ## Introduction
 
 This repository is a security audit exercise for [Google's Cybersecurity Course](https://www.coursera.org/google-certificates/cybersecurity-certificate) on a dummy company called "Botium Toys"
@@ -25,7 +24,6 @@ As the company is a small business (SMB), this audit can be optimized using the 
 in place, with considerations to kick-start their cybersecurity risk management strategy by using the NIST Cybersecurity
 Framework (CSF) 2.0. The guide also can assist other relatively small organizations, such as non-profits, government
 agencies, and schools. It is a supplement to the NIST CSF and is not intended to replace it."
-
 <sub>- Purpose, Slide 2, "NIST Cybersecurity Framework 2.0: Small Business Quick-Start Guide"<sub>
 
 
