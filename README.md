@@ -1,7 +1,3 @@
-# Botium Toys Security Audit
-
-
-
 
 ## Introduction
 
