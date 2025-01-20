@@ -50,3 +50,9 @@ business mission.
 | Intrusion Detection System (IDS) | Detects potential threats or unauthorized access     | IT Department          | None                                            | N/A                                                         | High – Lack of IDS leaves the network vulnerable to undetected attacks, increasing the risk of a breach.                            |
 
  > Due to the lack of controls, all employees have access to PII/SPII, making it difficult to quantify anything below high risk when it comes to employee-needed assets. Thus, all employee equipment and assets are classified as high risk due to the sensitive nature of the data they access.
+
+### Protect
+> When working with an SMB, it is essential to prioritize cost-effective and compatible solutions that align with the business’s specific needs. One of the most significant concerns for any business, regardless of size, is data security. Multi-factor authentication (MFA) is one of the most affordable and effective ways to improve security. It is also quick to implement and requires minimal investment compared to other advanced security measures. 
+
+
+
