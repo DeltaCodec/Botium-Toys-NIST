@@ -52,7 +52,7 @@ business mission.
  > Due to the lack of controls, all employees have access to PII/SPII, making it difficult to quantify anything below high risk when it comes to employee-needed assets. Thus, all employee equipment and assets are classified as high risk due to the sensitive nature of the data they access.
 
 ## Protect
-> [!TIP]
+> [!IMPORTANT]
 > When working with an SMB, it is essential to prioritize cost-effective and compatible solutions that align with the business’s specific needs. One of the most significant concerns for any business, regardless of size, is data security. Multi-factor authentication (MFA) is one of the most affordable and effective ways to improve security. It is also quick to implement and requires minimal investment compared to other advanced security measures. MFA implementation is mandatory for most of the company services, therefore, the next subtopic on Protect phase already expects it's presence on our security strategy.
 
 ### Protect Phase Controls Table
