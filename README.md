@@ -31,5 +31,11 @@ agencies, and schools. It is a supplement to the NIST CSF and is not intended to
 
 The company scored an 8 on the **Risk Score** due the lack of controls and adherence to compliance and best practices, this also qualifies this resource as a useful tool for this audit.
 
+### Identify
+> Before you can protect your assets, you need to identify them. Then you can determine the
+appropriate level of protection for each asset based upon its sensitivity and criticality to your
+business mission.
+
+|Asset |
 
 
