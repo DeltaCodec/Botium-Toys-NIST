@@ -132,45 +132,20 @@ business mission.
 
 ## Recomendations
 
-**Implement Least Privilege Access Control**
-> Enforce strict access control policies that ensure employees and vendors only have access to the specific data and systems they need to perform their job functions. This can minimize the risk of internal threats and data breaches.
+**Enhance Encryption Practices**
+> Implement data encryption for all sensitive data, particularly customers' PII/SPII and credit card information, both at rest and in transit. This will ensure the confidentiality and integrity of sensitive information, complying with regulations such as PCI DSS.
 
-**Develop Disaster Recovery Plans**
+**Establish and Enforce Password Policies**
+> Strengthen password policies to include complexity requirements (e.g., minimum length, character variety) and implement a centralized password management system to enforce these policies. This will mitigate the risk of password-based attacks and improve overall security.
 
->  Establish comprehensive disaster recovery plans that include off-site backups, system redundancy, and business continuity strategies to reduce downtime and minimize operational impact in case of system failures or data loss.
+**Create Disaster Recovery and Business Continuity Plans**
+> Develop and implement disaster recovery and business continuity plans to ensure minimal disruption to business operations in case of system failures, cyberattacks, or natural disasters. This should include regular backups and testing of recovery procedures.
 
-**Enhance Password Policies**
+**Implement Least Privilege and Separation of Duties**
+> Apply the principle of least privilege by restricting access to sensitive data and systems to only those employees who absolutely need it to perform their job duties. Additionally, enforce separation of duties to prevent any individual from having too much control over critical systems, which could lead to misuse or fraud.
 
-> Update the password policy to require stronger passwords (at least 8 characters, including numbers, letters, and special characters) and implement a centralized password management system to enforce these rules across the company.
-
-**Separate Duties and Responsibilities**
-
->Implement separation of duties within key processes (e.g., access management, financial transactions) to ensure no single employee has too much control over sensitive systems or data, reducing the risk of fraud or misuse.
-
-**Implement Intrusion Detection System (IDS)**
-
-> Install and configure an intrusion detection system (IDS) to monitor network traffic for potential threats. The IDS should be able to quickly alert the IT team to any suspicious activities and prevent attacks from spreading.
-
-**Implement Full Data Encryption**
-
-> Encrypt sensitive data at rest (in databases) and in transit (e.g., during payment transactions) to ensure confidentiality and integrity, especially for customer credit card information and personal data (PII/SPII).
-
-**Establish Regular Backup and Recovery Procedures**
-
-> Create a backup strategy that includes automatic daily backups, off-site storage, and frequent recovery tests to ensure critical data can be restored quickly in the event of a data loss or disaster.
-
-
-**Install a Password Management System**
-
-> Implement a centralized password management system to securely store and enforce password policies. This will improve productivity, reduce password reset requests, and enhance overall security.
-
-**Increase Monitoring and Maintenance for Legacy Systems**
-
->Establish a formal schedule for monitoring, patching, and maintaining legacy systems. Identify and address any vulnerabilities in outdated systems to reduce security risks.
-
-**Improve Physical Security Controls**
-
-> Ensure that physical security measures (e.g., locked cabinets for network gear, CCTV surveillance) are in place to protect critical systems and assets from unauthorized access or tampering.
+**Ensure Compliance with GDPR and PCI DSS**
+> Review and ensure that Botium Toys complies with the General Data Protection Regulation (GDPR) for handling E.U. customers' data and Payment Card Industry Data Security Standard (PCI DSS) for protecting payment card information. This will help mitigate the risk of data breaches and regulatory penalties.
 
 **Implement Security Awareness Training for Employees**
 
@@ -187,3 +162,37 @@ business mission.
 **Ensure Compliance with PCI DSS for Credit Card Data**
 
 > Review the organization's handling of credit card data and implement necessary changes to comply with PCI DSS standards, including encryption, access controls, and secure transmission practices.
+
+
+## References:
+<sub>**General Data Protection Regulation (GDPR)**
+European Parliament and Council. (2016). Regulation (EU) 2016/679 of the European Parliament and of the Council. Official Journal of the European Union.
+Available at: https://gdpr-info.eu/
+
+<sub>**Payment Card Industry Data Security Standard (PCI DSS)**
+PCI Security Standards Council. (2018). Payment Card Industry Data Security Standard (PCI DSS) Version 3.2.1.
+Available at: https://www.pcisecuritystandards.org/
+
+<sub>**California Consumer Privacy Act (CCPA)**
+California Legislative Information. (2018). California Consumer Privacy Act of 2018 (CCPA).
+Available at: https://oag.ca.gov/privacy/ccpa
+
+<sub>**Health Insurance Portability and Accountability Act (HIPAA)**
+U.S. Department of Health and Human Services. (1996). Health Insurance Portability and Accountability Act of 1996 (HIPAA).
+Available at: https://www.hhs.gov/hipaa/index.html
+
+<sub>**Sarbanes-Oxley Act (SOX)**
+U.S. Congress. (2002). Sarbanes-Oxley Act of 2002.
+Available at: https://www.congress.gov/bill/107th-congress/house-bill/3763/text
+
+<sub>**Federal Information Security Modernization Act (FISMA)**
+U.S. Congress. (2014). Federal Information Security Modernization Act of 2014.
+Available at: https://www.congress.gov/bill/113th-congress/house-bill/1163/text
+
+<sub>**National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF)**
+National Institute of Standards and Technology. (2018). Framework for Improving Critical Infrastructure Cybersecurity (Version 1.1).
+Available at: https://www.nist.gov/cyberframework
+
+<sub>**ISO/IEC 27001:2013 - Information Security Management Systems**
+International Organization for Standardization (ISO). (2013). ISO/IEC 27001:2013 - Information Security Management Systems (ISMS).
+Available at: https://www.iso.org/isoiec-27001-information-security.html<sub>
