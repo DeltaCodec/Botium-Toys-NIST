@@ -21,7 +21,7 @@ The IT manager starts by implementing the National Institute of Standards and Te
 
 ### Optimization for Small Businesses (Small Business Guide)
 As the company is a small business (SMB), this audit can be optimized using the [NIST Cybersecurity Framework 2.0: Small Business Quick-Start Guide](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1300.pdf), a resource provided on NIST's website.
-
+> [!NOTE]
 >"This guide provides small-to-medium sized businesses (SMB), specifically those who have modest or no cybersecurity plans
 in place, with considerations to kick-start their cybersecurity risk management strategy by using the NIST Cybersecurity
 Framework (CSF) 2.0. The guide also can assist other relatively small organizations, such as non-profits, government
@@ -31,7 +31,7 @@ agencies, and schools. It is a supplement to the NIST CSF and is not intended to
 
 The company scored an 8 on the **Risk Score** due the lack of controls and adherence to compliance and best practices, this also qualifies this resource as a useful tool for this audit.
 
-### Identify
+## Identify
 > Before you can protect your assets, you need to identify them. Then you can determine the
 appropriate level of protection for each asset based upon its sensitivity and criticality to your
 business mission.
@@ -51,8 +51,139 @@ business mission.
 
  > Due to the lack of controls, all employees have access to PII/SPII, making it difficult to quantify anything below high risk when it comes to employee-needed assets. Thus, all employee equipment and assets are classified as high risk due to the sensitive nature of the data they access.
 
-### Protect
-> When working with an SMB, it is essential to prioritize cost-effective and compatible solutions that align with the business’s specific needs. One of the most significant concerns for any business, regardless of size, is data security. Multi-factor authentication (MFA) is one of the most affordable and effective ways to improve security. It is also quick to implement and requires minimal investment compared to other advanced security measures. 
+## Protect
+> [!TIP]
+> When working with an SMB, it is essential to prioritize cost-effective and compatible solutions that align with the business’s specific needs. One of the most significant concerns for any business, regardless of size, is data security. Multi-factor authentication (MFA) is one of the most affordable and effective ways to improve security. It is also quick to implement and requires minimal investment compared to other advanced security measures. MFA implementation is mandatory for most of the company services, therefore, the next subtopic on Protect phase already expects it's presence on our security strategy.
+
+### Protect Phase Controls Table
+
+| **Control Category**         | **Control Name**                     | **Control Type and Explanation**                                                                                                    | **Needs to be Implemented (X)** | **Priority** | **Risk to Business if Not Implemented**                                                                                                                                      |
+|------------------------------|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Administrative Controls**   | Least Privilege                      | Preventative; restricts user access to only what is necessary for their role, minimizing the risk of unauthorized access               |            ✔️                    | High         | High: Increases risk of unauthorized access to critical assets or data if employees have unnecessary privileges.                                                          |
+|           **Administrative Controls**                   | Disaster Recovery Plans              | Corrective; ensures business continuity in case of disaster, limiting downtime and data loss                                           | ✔️                                | High         | High: Potential loss of critical data and prolonged system downtime can severely impact business operations.                                                               |
+|           **Administrative Controls**                   | Password Policies                    | Preventative; establishes rules for creating strong passwords to defend against brute-force attacks                                   | ✔️                                | High         | High: Weak passwords increase the likelihood of unauthorized access or account compromise.                                                                              |
+|          **Administrative Controls**                    | Access Control Policies              | Preventative; improves confidentiality and integrity of sensitive data by controlling who can access it                              | ✔️                               | High         | High: Failure to enforce access controls can lead to unauthorized access or data breaches.                                                                                |
+|         **Administrative Controls**                     | Account Management Policies          | Preventative; ensures proper management of employee accounts, especially for former or disgruntled employees                          | ✔️                                | High         | High: Failing to manage accounts increases the risk of disgruntled employees retaining access to systems, possibly causing data breaches or damage.                       |
+|         **Administrative Controls**                     | Separation of Duties                 | Preventative; ensures no single person has control over critical processes, preventing abuse of power and fraud                      | ✔️                                | High         | High: Potential for fraud, data misuse, or systems being tampered with if an individual has too much access or control.                                                   |
+| **Technical Controls**        | Multi-Factor Authentication (MFA)    | Preventative; requires multiple forms of authentication to verify user identity before granting access                               | ✔️                                | High         | High: Without MFA, accounts and systems are more vulnerable to unauthorized access, increasing the likelihood of data theft or breaches.                               |
+|            **Technical Controls**                   | Encryption                           | Deterrent; secures sensitive data by encoding it, making it unreadable without the correct decryption key                             | ✔️                                | High         | High: Lack of encryption exposes sensitive data (e.g., credit card information, PII) to unauthorized access or theft, violating compliance regulations.                  |
+|            **Technical Controls**                   | Intrusion Detection System (IDS)     | Detective; detects and alerts on unusual or malicious activity on the network to enable rapid response                               | ✔️                                | High         | High: Without IDS, potential intrusions could go undetected, leading to significant data breaches, financial loss, or compromised systems.                               |
+|          **Technical Controls**                     | Backups                              | Corrective; ensures that critical data is backed up regularly, allowing restoration in case of data loss                             | ✔️                                | High         | High: Data loss can have severe operational impacts, especially if backups are not available or not functioning properly.                                                  |
+|          **Technical Controls**                     | Antivirus Software                   | Corrective; detects and removes malware or other malicious software from the system                                                   | ✔️                                | High         | High: Malware infections can compromise system integrity, steal sensitive data, or disable business operations if antivirus software is not in place.                      |
+|           **Technical Controls**                    | Password Management System           | Corrective; streamlines password recovery and reset processes, ensuring compliance with password policies and preventing delays     | ✔️                                | High         | High: Difficulty in managing passwords and access can result in productivity loss, frustration, and potentially unauthorized access to accounts if password reset is delayed. |
+|           **Technical Controls**                    | Legacy System Monitoring             | Preventative/Corrective; ensures legacy systems are monitored and any vulnerabilities are addressed in a timely manner                |            ✔️                     | High         | High: Legacy systems are particularly vulnerable to cyberattacks if they are not monitored and patched regularly.                                                          |
+| **Physical Controls**         | Time-Controlled Safe                 | Deterrent; restricts physical access to critical assets, reducing the risk of physical theft                                        | ✔️                               | Medium/Low   | Medium: Potential for physical theft or tampering with critical assets, though impact is less significant than a cybersecurity breach.                                     |
+|           **Physical Controls**                    | CCTV Surveillance                    | Preventative/Detective; reduces the risk of unauthorized physical access and provides video evidence for investigations               |   ✔️                             | High/Medium | Medium: Physical security risks such as theft or vandalism could increase if CCTV is not maintained or used effectively.                                                   |
+|           **Physical Controls**                    | Locking Cabinets (Network Gear)      | Preventative; prevents unauthorized personnel from accessing and tampering with sensitive equipment and network gear                | ✔️                                | High/Medium | High: Unauthorized access to network infrastructure could compromise security and lead to unauthorized changes or data leaks.                                            |
+|          **Physical Controls**                     | Locks                                | Preventative; secures physical and digital assets from theft or tampering                                                             | ✔️                                | High         | High: Failure to secure physical assets (e.g., laptops, network gear) can lead to theft or unauthorized access.                                                          |
+|          **Physical Controls**                     | Fire Detection and Prevention        | Detective/Preventative; detects and prevents fire hazards in the store and office to protect assets and prevent system damage        | ✔️                                | Medium       | Medium: If fire detection systems are not functional, the business faces significant risk of asset damage or inventory loss due to fire.                                   |
 
 
+## Controls and compliance checklist
+### **Controls Assessment Checklist**
 
+| **Control**                                          | **Before (Current State)** | **After (Improvement Recommendations)** |
+|------------------------------------------------------|----------------------------|----------------------------------------|
+| Least Privilege                                      | ❌                          | ✔️                                      |
+| Disaster recovery plans                              | ❌                          | ✔️                                      |
+| Password policies                                     | ❌                          | ✔️                                      |
+| Separation of duties                                  | ❌                          | ✔️                                      |
+| Firewall                                             | ✔️                          | ✔️                                      |
+| Intrusion detection system (IDS)                      | ❌                          | ✔️                                      |
+| Backups                                              | ❌                          | ✔️                                      |
+| Antivirus software                                    | ✔️                          | ✔️                                      |
+| Manual monitoring, maintenance, and intervention for legacy systems | ❌                          | ✔️                                      |
+| Encryption                                           | ❌                          | ✔️                                      |
+| Password management system                           | ❌                          | ✔️                                      |
+| Locks (offices, storefront, warehouse)               | ✔️                          | ✔️                                      |
+| Closed-circuit television (CCTV) surveillance         | ✔️                          | ✔️                                      |
+| Fire detection/prevention (fire alarm, sprinkler system, etc.) | ✔️                          | ✔️                                      |
+
+---
+
+### **Compliance Checklist**
+
+#### **Payment Card Industry Data Security Standard (PCI DSS)**
+
+| **Best practice**                                    | **Before (Current State)** | **After (Improvement Recommendations)** |
+|------------------------------------------------------|----------------------------|----------------------------------------|
+| Only authorized users have access to customers’ credit card information. | ❌                          | ✔️                                      |
+| Credit card information is stored, accepted, processed, and transmitted internally, in a secure environment. | ❌                          | ✔️                                      |
+| Implement data encryption procedures to better secure credit card transaction touchpoints and data. | ❌                          | ✔️                                      |
+| Adopt secure password management policies.           | ✔️                          | ✔️                                      |
+
+#### **General Data Protection Regulation (GDPR)**
+
+| **Best practice**                                    | **Before (Current State)** | **After (Improvement Recommendations)** |
+|------------------------------------------------------|----------------------------|----------------------------------------|
+| E.U. customers’ data is kept private/secured.        | ❌                          | ✔️                                      |
+| There is a plan in place to notify E.U. customers within 72 hours if their data is compromised/there is a breach. | ❌                          | ✔️                                      |
+| Ensure data is properly classified and inventoried.  | ✔️                          | ✔️                                      |
+| Enforce privacy policies, procedures, and processes to properly document and maintain data. | ✔️                          | ✔️                                      |
+
+#### **System and Organization Controls (SOC type 1, SOC type 2)**
+
+| **Best practice**                                    | **Before (Current State)** | **After (Improvement Recommendations)** |
+|------------------------------------------------------|----------------------------|----------------------------------------|
+| User access policies are established.                | ❌                          | ✔️                                      |
+| Sensitive data (PII/SPII) is confidential/private.    | ❌                          | ✔️                                      |
+| Data integrity ensures the data is consistent, complete, accurate, and has been validated. | ❌                          | ✔️                                      |
+| Data is available to individuals authorized to access it. | ❌                          | ✔️                                      |
+
+## Recomendations
+
+**Implement Least Privilege Access Control**
+> Enforce strict access control policies that ensure employees and vendors only have access to the specific data and systems they need to perform their job functions. This can minimize the risk of internal threats and data breaches.
+
+**Develop Disaster Recovery Plans**
+
+>  Establish comprehensive disaster recovery plans that include off-site backups, system redundancy, and business continuity strategies to reduce downtime and minimize operational impact in case of system failures or data loss.
+
+**Enhance Password Policies**
+
+> Update the password policy to require stronger passwords (at least 8 characters, including numbers, letters, and special characters) and implement a centralized password management system to enforce these rules across the company.
+
+**Separate Duties and Responsibilities**
+
+>Implement separation of duties within key processes (e.g., access management, financial transactions) to ensure no single employee has too much control over sensitive systems or data, reducing the risk of fraud or misuse.
+
+**Implement Intrusion Detection System (IDS)**
+
+> Install and configure an intrusion detection system (IDS) to monitor network traffic for potential threats. The IDS should be able to quickly alert the IT team to any suspicious activities and prevent attacks from spreading.
+
+**Implement Full Data Encryption**
+
+> Encrypt sensitive data at rest (in databases) and in transit (e.g., during payment transactions) to ensure confidentiality and integrity, especially for customer credit card information and personal data (PII/SPII).
+
+**Establish Regular Backup and Recovery Procedures**
+
+> Create a backup strategy that includes automatic daily backups, off-site storage, and frequent recovery tests to ensure critical data can be restored quickly in the event of a data loss or disaster.
+
+
+**Install a Password Management System**
+
+> Implement a centralized password management system to securely store and enforce password policies. This will improve productivity, reduce password reset requests, and enhance overall security.
+
+**Increase Monitoring and Maintenance for Legacy Systems**
+
+>Establish a formal schedule for monitoring, patching, and maintaining legacy systems. Identify and address any vulnerabilities in outdated systems to reduce security risks.
+
+**Improve Physical Security Controls**
+
+> Ensure that physical security measures (e.g., locked cabinets for network gear, CCTV surveillance) are in place to protect critical systems and assets from unauthorized access or tampering.
+
+**Implement Security Awareness Training for Employees**
+
+> Provide regular cybersecurity training to all employees to increase awareness of phishing, social engineering attacks, and best practices for maintaining security in their daily work.
+
+**Develop an Incident Response and Notification Plan for EU Customers (GDPR)**
+
+> Develop a clear and actionable plan to notify EU customers within 72 hours of a data breach as required by GDPR. Include the necessary contact information and procedures to ensure compliance with data protection laws.
+
+**Improve User Access Policies for Compliance with SOC 1 and SOC 2**
+
+> Review and refine user access policies to ensure that only authorized personnel have access to sensitive data and systems. Implement role-based access control (RBAC) to restrict unnecessary access and ensure data confidentiality.
+
+**Ensure Compliance with PCI DSS for Credit Card Data**
+
+> Review the organization's handling of credit card data and implement necessary changes to comply with PCI DSS standards, including encryption, access controls, and secure transmission practices.
